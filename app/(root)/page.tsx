@@ -1,4 +1,5 @@
 import HeaderBox from '@/components/HeaderBox'
+import TotalBalanceBox from '@/components/TotalBalanceBox';
 import React from 'react'
 
 const Home = () => {
@@ -12,10 +13,12 @@ const Home = () => {
                 type="greeting"
                 title="Welcome"
                 user={loggedIn?.firstName || 'Guest'}
-                subtext = "Manage your account efficiently."
-
-                
-                
+                subtext = "Manage your account efficiently and quickly, now with Bankify."
+                />
+                <TotalBalanceBox
+                accounts={[]}
+                totalBanks={1}
+                totalCurrentBalance={90990.23}
                 
                 />
 

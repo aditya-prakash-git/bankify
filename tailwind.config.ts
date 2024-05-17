@@ -23,10 +23,10 @@ const config = {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
         },
-        bankGradient: "#0179FE",
+        bankGradient: "#32CD32",
         indigo: {
-          500: "#6172F3",
-          700: "#3538CD",
+          500: "#3CB371",
+          700: "#2E8B57",
         },
         success: {
           25: "#F6FEF9",

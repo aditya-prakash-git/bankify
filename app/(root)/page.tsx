@@ -3,6 +3,7 @@ import RightSidebar from '@/components/RightSidebar';
 import TotalBalanceBox from '@/components/TotalBalanceBox';
 import React from 'react'
 
+
 const Home = () => {
 
     const loggedIn = {firstName : 'Aditya', lastName: 'Prakash', email: 'aditya12prakash@gmail.com'};
@@ -33,7 +34,7 @@ const Home = () => {
        
         <RightSidebar user={loggedIn}
           transactions={[]}
-          banks={[[]]}
+          banks={[{currentBalance: 50200}, {currentBalance: 50200}]}
         />
       
     
